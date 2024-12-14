@@ -3,13 +3,19 @@
 ```
 1. Clona el repositorio::
 
-        git clone https://github.com/freddyB19/todo-app.git
-        cd todo-app
+        git clone https://github.com/freddyB19/py_powerpoint.git
+        cd py_powerpoint
 
 2. Crea y activa el entorno virtual::
+        *Para Linux:*
+        python3 -m venv venv
+        source venv/bin/activate
 
-        python3 -m venv env
-        source env/bin/activate
+        *Windows:*
+        python -m venv venv
+        venv\Scripts\activate
+
+        (Para usuarios Windows, recomiendo consultar la documentación)
 
 3. Instala los requerimientos::
 
